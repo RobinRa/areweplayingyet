@@ -1,0 +1,15 @@
+({
+  name: 'Robin Ra-Baby', // required (identical to your filename)
+  description: 'Robin Ra Official', // required (used as title on the website)
+  spec: 'http://…', // optional
+  longdesc: 'lorem ipsum…', // optional
+  reports: { // optional
+    chrome: {
+      desc: 'lorem ipsum…',
+      link: 'https://soundcloud.com/robinraofficial/robin-ra-baby'
+    }
+  },
+  assert: function(finish) { // required
+    var audio = this.audio;
+  }
+})
